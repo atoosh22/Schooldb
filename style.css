@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myside{
+    background-color: #252159;
+    color: white;
+}
+.btn{
+    border: 0;
+    outline: 0;
+    font-size: 22px;
+}
+.btn:hover{
+    outline: #252159;
+}
+
+/* end slide bar */
+
+.myheader{
+    background-color: #58C6D3;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 40px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.nav a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
