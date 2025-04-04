@@ -61,6 +61,7 @@ opacity: 60%;
 }
 .card1:hover{
     background-color: #252159;
+    color: white;
     opacity: 80%;
 }
 .link{
