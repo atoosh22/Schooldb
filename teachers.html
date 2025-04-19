@@ -71,10 +71,9 @@
             <div class="nav" >
                 <a  href="teachers.html">Teachers</a>
                
-                <button class="btn text-white">
-                  <i class="fa-solid fa-plus"></i>
-                      <a href="Student.html" class="link">Add Teacher</a>
-                     </button>
+                
+                  <button  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add Teacher</button>
+          
            
            
            </div>
@@ -84,6 +83,24 @@
         <!-- End Header -->
 
         <!-- contant section -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"> Add New Techer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="card2" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="button">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
   
 
         <div class="m-5">

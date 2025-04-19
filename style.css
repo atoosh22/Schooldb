@@ -22,9 +22,12 @@
 .myheader{
     background-color: #58C6D3;
 }
+.login{
+    background-color: red;
+}
 
  .head{
-    background-color: gray;
+    background-color: #58C6D3;
     justify-content: space-between;
  }
 .nav{
@@ -67,4 +70,12 @@ opacity: 60%;
 .link{
     color: white;
     text-decoration: none;
+}
+button{
+   background-color: #58C6D3;
+   border: 2px solid #fff;
+   outline: none;
+   color: #fff;
+   padding: 8px;
+  
 }

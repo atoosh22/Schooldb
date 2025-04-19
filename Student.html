@@ -71,10 +71,9 @@
            <div class="nav" >
             <a  href="#">Students</a>
            
-            <button class="btn text-white">
-              <i class="fa-solid fa-plus"></i>
-                  <a href="Student.html" class="link">Add Student</a>
-                 </button>
+          
+            <button  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add Student</button>
+          
            </div>
        </div>
         <!-- End Header -->
@@ -82,7 +81,91 @@
         <!-- contant sections -->
   
 
+        <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> Add New student</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="card2" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="button">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         <div class="m-5">
+
+          <table class="table table-Striped">
+            <thead>
+              <tr>
+                <th>#ID</th>
+                <th>Name</th>
+                <th>TELL</th>
+                <th>ADDRESS</th>
+                <th>DOF</th>
+                <th>POB</th>
+                <th>GURDIAN-TELL</th>
+                <th>FEE</th>
+                <th>CLASS-ID</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1010</td>
+                <td>atoosh Mohamed Nor</td>
+                <td>614944045</td>
+                <td>Baar-ubah</td>
+                <td>2000</td>
+                <td>Galdogob</td>
+                <td>613684862</td>
+                <td>$45.00</td>
+                <td>3333</td>
+              </tr>
+              <tr>
+                <td>1011</td>
+                <td>Sumayo mohamed ali</td>
+                <td>612567890</td>
+                <td>Dayniile</td>
+                <td>1999</td>
+                <td>mogadishu</td>
+                <td>613119080</td>
+                <td>$45.00</td>
+                <td>3310</td>
+              </tr>
+              <tr>
+                <td>1012</td>
+                <td>Mohamed Ali hasan</td>
+                <td>614943012</td>
+                <td>Hodan</td>
+                <td>2000</td>
+                <td>Mogadishu</td>
+                <td>615764862</td>
+                <td>$42.00</td>
+                <td>3333</td>
+              </tr>
+              <tr>
+                <td>1013</td>
+                <td>Muna Jamac xuseen</td>
+                <td>614893245</td>
+                <td>Holwadaag</td>
+                <td>2003</td>
+                <td>Garoowe</td>
+                <td>612682362</td>
+                <td>$37.00</td>
+                <td>3310</td>
+              </tr>
+            </tbody>
+            </tr>
+          </table>
     
 
   </div>
