@@ -89,9 +89,18 @@ button{
     margin-top: 10%;
 }
 
-.batamada{
-    margin: 40px;
-    margin: auto;
+.btmada a{
+    margin-top: 15%;
+    padding: 9px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.yes{
+    background-color: #252159;
+}
+.no{
+    background-color: red;
 }
 
 
