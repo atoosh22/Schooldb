@@ -55,7 +55,7 @@
     
     
 }
-.card2{
+.card2 , .no{
     background-color: #252159;
    
 }
@@ -96,11 +96,10 @@ button{
     text-decoration: none;
     margin-left: 50px;
 }
+
 .yes{
-    background-color: #252159;
-}
-.no{
     background-color: red;
+    color: white;
 }
 
 
