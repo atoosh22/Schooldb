@@ -97,7 +97,7 @@ button{
     margin-left: 50px;
 }
 
-.yes{
+.yes, .hh{
     background-color: red;
     color: white;
 }
